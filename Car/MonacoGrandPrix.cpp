@@ -13,7 +13,6 @@
 MonacoGrandPrix::MonacoGrandPrix(Car& e1, Car& e2):_e1(e1),_e2(e2){}
 
 void MonacoGrandPrix::race(){
-    //直線
     this->_e1.accelarate();
     this->_e2.accelarate();
     bool e1wins = (this->_e1.getaccelarete() > this->_e2.getaccelarete());
