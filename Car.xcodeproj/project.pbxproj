@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CDEEC71F03AFB2000C3F62 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEEC21F03AFB2000C3F62 /* Car.cpp */; };
+		55CDEEC81F03AFB2000C3F62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEEC41F03AFB2000C3F62 /* main.cpp */; };
+		55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEEC51F03AFB2000C3F62 /* Prius.cpp */; };
+		55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */; };
+		55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */; };
+		55CDEED21F046429000C3F62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEED11F046429000C3F62 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55CDEEB61F03AF44000C3F62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55CDEEB81F03AF44000C3F62 /* Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CDEEC21F03AFB2000C3F62 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		55CDEEC31F03AFB2000C3F62 /* Car.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		55CDEEC41F03AFB2000C3F62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55CDEEC51F03AFB2000C3F62 /* Prius.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prius.cpp; sourceTree = "<group>"; };
+		55CDEEC61F03AFB2000C3F62 /* Prius.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Prius.hpp; sourceTree = "<group>"; };
+		55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ferrari.cpp; sourceTree = "<group>"; };
+		55CDEECB1F03B1D3000C3F62 /* Ferrari.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ferrari.hpp; sourceTree = "<group>"; };
+		55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonacoGrandPrix.cpp; sourceTree = "<group>"; };
+		55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MonacoGrandPrix.hpp; sourceTree = "<group>"; };
+		55CDEED11F046429000C3F62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = gtest/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CDEEB51F03AF44000C3F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CDEEAF1F03AF44000C3F62 = {
+			isa = PBXGroup;
+			children = (
+				55CDEED01F0463F9000C3F62 /* gtest */,
+				55CDEEBA1F03AF44000C3F62 /* Car */,
+				55CDEEB91F03AF44000C3F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CDEEB91F03AF44000C3F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CDEEB81F03AF44000C3F62 /* Car */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CDEEBA1F03AF44000C3F62 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				55CDEEC21F03AFB2000C3F62 /* Car.cpp */,
+				55CDEEC31F03AFB2000C3F62 /* Car.hpp */,
+				55CDEEC41F03AFB2000C3F62 /* main.cpp */,
+				55CDEEC51F03AFB2000C3F62 /* Prius.cpp */,
+				55CDEEC61F03AFB2000C3F62 /* Prius.hpp */,
+				55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */,
+				55CDEECB1F03B1D3000C3F62 /* Ferrari.hpp */,
+				55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */,
+				55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		55CDEED01F0463F9000C3F62 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				55CDEED11F046429000C3F62 /* main.cpp */,
+			);
+			name = gtest;
+			path = Car;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CDEEB71F03AF44000C3F62 /* Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CDEEBF1F03AF44000C3F62 /* Build configuration list for PBXNativeTarget "Car" */;
+			buildPhases = (
+				55CDEEB41F03AF44000C3F62 /* Sources */,
+				55CDEEB51F03AF44000C3F62 /* Frameworks */,
+				55CDEEB61F03AF44000C3F62 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Car;
+			productName = Car;
+			productReference = 55CDEEB81F03AF44000C3F62 /* Car */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CDEEB01F03AF44000C3F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "田村雄太";
+				TargetAttributes = {
+					55CDEEB71F03AF44000C3F62 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55CDEEB31F03AF44000C3F62 /* Build configuration list for PBXProject "Car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55CDEEAF1F03AF44000C3F62;
+			productRefGroup = 55CDEEB91F03AF44000C3F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CDEEB71F03AF44000C3F62 /* Car */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CDEEB41F03AF44000C3F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */,
+				55CDEEC71F03AFB2000C3F62 /* Car.cpp in Sources */,
+				55CDEED21F046429000C3F62 /* main.cpp in Sources */,
+				55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */,
+				55CDEEC81F03AFB2000C3F62 /* main.cpp in Sources */,
+				55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55CDEEBD1F03AF44000C3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55CDEEBE1F03AF44000C3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55CDEEC01F03AF44000C3F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55CDEEC11F03AF44000C3F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CDEEB31F03AF44000C3F62 /* Build configuration list for PBXProject "Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CDEEBD1F03AF44000C3F62 /* Debug */,
+				55CDEEBE1F03AF44000C3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CDEEBF1F03AF44000C3F62 /* Build configuration list for PBXNativeTarget "Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CDEEC01F03AF44000C3F62 /* Debug */,
+				55CDEEC11F03AF44000C3F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CDEEB01F03AF44000C3F62 /* Project object */;
+}
