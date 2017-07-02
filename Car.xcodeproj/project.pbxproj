@@ -12,7 +12,6 @@
 		55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEEC51F03AFB2000C3F62 /* Prius.cpp */; };
 		55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */; };
 		55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */; };
-		55CDEED21F046429000C3F62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEED11F046429000C3F62 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,16 +28,15 @@
 
 /* Begin PBXFileReference section */
 		55CDEEB81F03AF44000C3F62 /* Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CDEEC21F03AFB2000C3F62 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
-		55CDEEC31F03AFB2000C3F62 /* Car.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
-		55CDEEC41F03AFB2000C3F62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		55CDEEC51F03AFB2000C3F62 /* Prius.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prius.cpp; sourceTree = "<group>"; };
-		55CDEEC61F03AFB2000C3F62 /* Prius.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Prius.hpp; sourceTree = "<group>"; };
-		55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ferrari.cpp; sourceTree = "<group>"; };
-		55CDEECB1F03B1D3000C3F62 /* Ferrari.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ferrari.hpp; sourceTree = "<group>"; };
-		55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonacoGrandPrix.cpp; sourceTree = "<group>"; };
-		55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MonacoGrandPrix.hpp; sourceTree = "<group>"; };
-		55CDEED11F046429000C3F62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = gtest/main.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEEC21F03AFB2000C3F62 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = Car/Car.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEEC31F03AFB2000C3F62 /* Car.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Car.hpp; path = Car/Car.hpp; sourceTree = SOURCE_ROOT; };
+		55CDEEC41F03AFB2000C3F62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Car/main.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEEC51F03AFB2000C3F62 /* Prius.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prius.cpp; path = Car/Prius.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEEC61F03AFB2000C3F62 /* Prius.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Prius.hpp; path = Car/Prius.hpp; sourceTree = SOURCE_ROOT; };
+		55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ferrari.cpp; path = Car/Ferrari.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEECB1F03B1D3000C3F62 /* Ferrari.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Ferrari.hpp; path = Car/Ferrari.hpp; sourceTree = SOURCE_ROOT; };
+		55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonacoGrandPrix.cpp; path = Car/MonacoGrandPrix.cpp; sourceTree = SOURCE_ROOT; };
+		55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MonacoGrandPrix.hpp; path = Car/MonacoGrandPrix.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 		55CDEEAF1F03AF44000C3F62 = {
 			isa = PBXGroup;
 			children = (
-				55CDEED01F0463F9000C3F62 /* gtest */,
 				55CDEEBA1F03AF44000C3F62 /* Car */,
 				55CDEEB91F03AF44000C3F62 /* Products */,
 			);
@@ -67,7 +64,7 @@
 				55CDEEB81F03AF44000C3F62 /* Car */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		55CDEEBA1F03AF44000C3F62 /* Car */ = {
 			isa = PBXGroup;
@@ -83,16 +80,7 @@
 				55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */,
 			);
 			path = Car;
-			sourceTree = "<group>";
-		};
-		55CDEED01F0463F9000C3F62 /* gtest */ = {
-			isa = PBXGroup;
-			children = (
-				55CDEED11F046429000C3F62 /* main.cpp */,
-			);
-			name = gtest;
-			path = Car;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -153,7 +141,6 @@
 			files = (
 				55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */,
 				55CDEEC71F03AFB2000C3F62 /* Car.cpp in Sources */,
-				55CDEED21F046429000C3F62 /* main.cpp in Sources */,
 				55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */,
 				55CDEEC81F03AFB2000C3F62 /* main.cpp in Sources */,
 				55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */,
