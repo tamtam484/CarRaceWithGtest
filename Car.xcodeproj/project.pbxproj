@@ -12,10 +12,20 @@
 		55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEEC51F03AFB2000C3F62 /* Prius.cpp */; };
 		55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECA1F03B1D3000C3F62 /* Ferrari.cpp */; };
 		55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */; };
+		55FDFA3D1F08A028004FACC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FDFA3B1F08A028004FACC8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		55CDEEB61F03AF44000C3F62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55FDFA401F08A038004FACC8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -37,10 +47,20 @@
 		55CDEECB1F03B1D3000C3F62 /* Ferrari.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Ferrari.hpp; path = Car/Ferrari.hpp; sourceTree = SOURCE_ROOT; };
 		55CDEECD1F03B251000C3F62 /* MonacoGrandPrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonacoGrandPrix.cpp; path = Car/MonacoGrandPrix.cpp; sourceTree = SOURCE_ROOT; };
 		55CDEECE1F03B251000C3F62 /* MonacoGrandPrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MonacoGrandPrix.hpp; path = Car/MonacoGrandPrix.hpp; sourceTree = SOURCE_ROOT; };
+		55FDFA3B1F08A028004FACC8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55FDFA3C1F08A028004FACC8 /* main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		55FDFA421F08A038004FACC8 /* gtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gtest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		55CDEEB51F03AF44000C3F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FDFA3F1F08A038004FACC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				55CDEEBA1F03AF44000C3F62 /* Car */,
+				55FDFA431F08A038004FACC8 /* gtest */,
 				55CDEEB91F03AF44000C3F62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				55CDEEB81F03AF44000C3F62 /* Car */,
+				55FDFA421F08A038004FACC8 /* gtest */,
 			);
 			name = Products;
 			sourceTree = SOURCE_ROOT;
@@ -81,6 +103,15 @@
 			);
 			path = Car;
 			sourceTree = SOURCE_ROOT;
+		};
+		55FDFA431F08A038004FACC8 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				55FDFA3B1F08A028004FACC8 /* main.cpp */,
+				55FDFA3C1F08A028004FACC8 /* main.hpp */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -102,6 +133,23 @@
 			productReference = 55CDEEB81F03AF44000C3F62 /* Car */;
 			productType = "com.apple.product-type.tool";
 		};
+		55FDFA411F08A038004FACC8 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FDFA461F08A038004FACC8 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				55FDFA3E1F08A038004FACC8 /* Sources */,
+				55FDFA3F1F08A038004FACC8 /* Frameworks */,
+				55FDFA401F08A038004FACC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 55FDFA421F08A038004FACC8 /* gtest */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +160,10 @@
 				ORGANIZATIONNAME = "田村雄太";
 				TargetAttributes = {
 					55CDEEB71F03AF44000C3F62 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					55FDFA411F08A038004FACC8 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -130,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				55CDEEB71F03AF44000C3F62 /* Car */,
+				55FDFA411F08A038004FACC8 /* gtest */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +194,17 @@
 			files = (
 				55CDEECF1F03B251000C3F62 /* MonacoGrandPrix.cpp in Sources */,
 				55CDEEC71F03AFB2000C3F62 /* Car.cpp in Sources */,
+				55FDFA3D1F08A028004FACC8 /* main.cpp in Sources */,
 				55CDEEC91F03AFB2000C3F62 /* Prius.cpp in Sources */,
 				55CDEEC81F03AFB2000C3F62 /* main.cpp in Sources */,
 				55CDEECC1F03B1D3000C3F62 /* Ferrari.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FDFA3E1F08A038004FACC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +314,20 @@
 			};
 			name = Release;
 		};
+		55FDFA471F08A038004FACC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55FDFA481F08A038004FACC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -273,6 +348,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		55FDFA461F08A038004FACC8 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FDFA471F08A038004FACC8 /* Debug */,
+				55FDFA481F08A038004FACC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
